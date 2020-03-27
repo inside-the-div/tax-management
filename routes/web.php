@@ -23,7 +23,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/profile', 'HomeController@UserProfile')->name('user-profile');
 Route::post('/profile', 'HomeController@updateUserProfile')->name('update-user-profile');
 Route::get('/tax/profile', 'HomeController@taxProfile')->name('tax-profile');
-Route::post('/tax/profile', 'HomeController@updateTaxProfile')->name('upadate-tax-profile');
+Route::post('/tax/profile', 'HomeController@updateTaxProfile')->name('update-tax-profile');
 Route::get('/details/income', 'HomeController@detailsIncome')->name('details-income');
 Route::post('/details/income', 'HomeController@updateDetailsIncome')->name('upadte-details-income');
 Route::get('/statement/income', 'HomeController@statementIncome')->name('statement-income');

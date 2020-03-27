@@ -15,6 +15,7 @@ class CreateTaxProfilesTable extends Migration
     {
         Schema::create('tax_profiles', function (Blueprint $table) {
             $table->id();
+            $table->integer('user_id');
             $table->string('name');
             $table->string('nid')->nullable();
             $table->string('utin')->nullable();
@@ -22,7 +23,7 @@ class CreateTaxProfilesTable extends Migration
             $table->string('circle');
             $table->string('tax_zone');
             $table->string('assessment_year');
-            $table->string('residental_status');
+            $table->string('residential_status');
             $table->string('status');
             $table->string('name_of_business');
             $table->string('wife_husband_name')->nullable();
