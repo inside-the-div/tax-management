@@ -2,6 +2,7 @@
 
 
 @section('content')
+<div class="container mt-5">
     <div class="row">
         <div class="col-12">
             <h1 class="font-25 pb-3 text-center card p-3 font-pt">Calculate and update your tax profile</h1>
@@ -151,4 +152,5 @@
             </section>
         </div>
     </div>
+</div>
 @endsection

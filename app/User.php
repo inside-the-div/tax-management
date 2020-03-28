@@ -43,4 +43,8 @@ class User extends Authenticatable
     {
         return $this->hasOne('App\taxProfile');
     }
+    public function taxForm()
+    {
+        return $this->hasOne('App\taxForm');
+    }
 }
